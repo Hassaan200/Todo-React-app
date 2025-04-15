@@ -5,7 +5,6 @@ import Home from './Components/Home';
 import NavbarLayout from './Components/Navbarlayout';
 import Navbar from './Components/Navbar';
 
-
 export const router = createBrowserRouter([
     {
       path: '/',
