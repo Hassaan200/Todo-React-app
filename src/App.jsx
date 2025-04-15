@@ -64,11 +64,11 @@ settodos(newTodos);
   }
 
 
-  const HandleDelete = (e, id) => {
-    const newTodos = todos.filter(item => item.id !== id);
-    settodos(newTodos);
-    localStorage.setItem("todos", JSON.stringify(newTodos)); 
-  };
+  // const HandleDelete = (e, id) => {
+  //   const newTodos = todos.filter(item => item.id !== id);
+  //   settodos(newTodos);
+  //   localStorage.setItem("todos", JSON.stringify(newTodos)); 
+  // };
 
   const HandleChange = (e)=>{
     settodo(e.target.value)
@@ -83,6 +83,7 @@ settodos(newTodos);
     let newTodos = [...todos];
     newTodos[index].isCompleted = !newTodos[index].isCompleted;
     settodos(newTodos);
+    localStorage.setItem("todos", JSON.stringify(newTodos)); 
   }
 
   return (
