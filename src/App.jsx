@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import './App.css'
-import Navbar from './Components/Navbar'
 import { v4 as uuidv4 } from 'uuid';
 import { FaRegEdit } from "react-icons/fa";
 import { RiDeleteBin6Fill } from "react-icons/ri";
+
 
 
 
