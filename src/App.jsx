@@ -88,9 +88,7 @@ settodos(newTodos);
 
   return (
     <>
-      <Navbar/>
-     
-  
+      
       <div className="mx-3 md:container md:mx-auto my-5 rounded-xl bg-violet-100 p-5 min-h-[80vh] md:w-[45%]">
       <h1 className='font-bold text-center  sm:text-3xl text-2xl'>iTask - Manage your todos at one place</h1>
         <div className="addtodo my-4 flex flex-col gap-1">
